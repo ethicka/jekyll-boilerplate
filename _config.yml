@@ -3,7 +3,7 @@ title: Site Title
 description: "" 
 baseurl: "" 
 url: "http://example.com" 
-exclude: [bower_components, Gemfile, Gemfile.lock, bower.json]
+exclude: [readme.md, Gemfile, Gemfile.lock, bower.json]
 
 # Build settings
 markdown: kramdown
