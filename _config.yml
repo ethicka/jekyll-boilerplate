@@ -1,0 +1,23 @@
+# Site settings
+title: Site Title
+description: "" 
+baseurl: "" 
+url: "http://example.com" 
+exclude: [bower_components, Gemfile, Gemfile.lock, bower.json]
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-assets
+assets:
+  compress:
+    css: true
+    js: true
+    js_compressor: uglifier
+    css_compressor: sass
+  autowrite: true
+  sources:
+    - "_assets/bower"
+    - "_assets/js"
+    - "_assets/css"
+    - "_assets/img"
