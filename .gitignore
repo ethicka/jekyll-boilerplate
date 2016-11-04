@@ -3,3 +3,6 @@ Gemfile.lock
 .asset-cache
 .sass-cache
 .jekyll-metadata
+/.bundle
+/_sources
+/_assets/bower
