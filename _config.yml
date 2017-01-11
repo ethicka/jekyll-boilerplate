@@ -4,6 +4,7 @@ description: ""
 baseurl: "" 
 url: "http://example.com" 
 exclude: [readme.md, Gemfile, Gemfile.lock, bower.json]
+livereload: true
 
 # Build settings
 markdown: kramdown
