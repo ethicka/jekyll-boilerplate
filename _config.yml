@@ -1,24 +1,31 @@
-# Site settings
-title: Site Title
-description: "" 
-baseurl: "" 
-url: "http://example.com" 
-exclude: [readme.md, Gemfile, Gemfile.lock, bower.json]
-livereload: true
+title:
+description: ""
+baseurl: ""
+url: ""
+
+# Assets
+assets:
+  sources:
+    - node_modules
+    - assets/pdf
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
+  - jekyll-livereload
   - jekyll-assets
-assets:
-  compress:
-    css: true
-    js: true
-    js_compressor: uglifier
-    css_compressor: sass
-  autowrite: true
-  sources:
-    - "_assets/bower"
-    - "_assets/js"
-    - "_assets/css"
-    - "_assets/img"
+
+# Exclude
+exclude:
+  - exclude
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - yarn.lock
+  - package.json
+  - CNAME # surge.sh cname
+  - s3_website.yml # s3_website

@@ -1,11 +1,19 @@
 source "https://rubygems.org"
 
-gem "jekyll-assets"
-gem "bootstrap-sass"
-gem "uglifier"
-gem "sass"
-gem "jekyll-watch"
+# Happy Jekylling!
+gem "jekyll"
+gem "sprockets", "~> 4.0.beta", {
+  require: false
+}
 
+# packages
+gem 'bootstrap'
+gem "uglifier"
+gem "image_optim"
+gem "mini_magick"
+
+# plguins
+gem "jekyll-assets", group: :jekyll_plugins
 group :jekyll_plugins do
-    gem 'jekyll-livereload'
+  gem 'jekyll-livereload'
 end

@@ -1,2 +1,6 @@
-<footer class="site-footer">
-</footer>
+{% if jekyll.environment == "production" %}
+{% include ga.html %}
+{% endif %}
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+{% asset main.js %}
