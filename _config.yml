@@ -16,7 +16,6 @@ assets:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-livereload
   - jekyll-assets
 
 # Exclude
