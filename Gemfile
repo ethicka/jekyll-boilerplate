@@ -11,6 +11,7 @@ gem 'bootstrap'
 gem "uglifier"
 gem "image_optim"
 gem "mini_magick"
+# gem "s3_website"
 
 # plguins
 gem "jekyll-assets", group: :jekyll_plugins
