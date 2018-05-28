@@ -1,7 +1,8 @@
 title:
-description: ""
+description:
 baseurl: ""
 url: ""
+# host: localhost
 
 # Assets
 assets:
@@ -17,10 +18,16 @@ assets:
 markdown: kramdown
 plugins:
   - jekyll-assets
+  - uglifier
 
 # Exclude
 exclude:
   - exclude
+  - assets
+  - ssl
+  - bower_components
+  - bower.json
+  - readme.md
   - Gemfile
   - Gemfile.lock
   - node_modules
