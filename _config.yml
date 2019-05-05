@@ -13,7 +13,10 @@ assets:
     browsers:
       - "last 2 versions"
       - "IE > 9"
-
+  plugins:
+    img:
+      optim:
+        {}
 # Build settings
 markdown: kramdown
 plugins:
@@ -21,17 +24,13 @@ plugins:
   - uglifier
 
 # Exclude
+# Exclude
 exclude:
   - exclude
-  - assets
-  - ssl
-  - bower_components
-  - bower.json
   - readme.md
   - Gemfile
   - Gemfile.lock
   - node_modules
   - yarn.lock
   - package.json
-  - CNAME # surge.sh cname
   - s3_website.yml # s3_website
