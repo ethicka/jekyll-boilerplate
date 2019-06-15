@@ -2,7 +2,7 @@ title:
 description:
 baseurl: ""
 url: ""
-# host: localhost
+jquery: true # default
 
 # Assets
 assets:

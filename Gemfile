@@ -8,6 +8,7 @@ gem "sprockets", "~> 4.0.beta", {
 
 # packages
 gem "bootstrap"
+gem "jquery-rails"
 gem "uglifier"
 gem "image_optim"
 gem "mini_magick"
