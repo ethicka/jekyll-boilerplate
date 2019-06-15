@@ -20,7 +20,9 @@ plugins:
   - jekyll-assets
   - uglifier
 
-# Exclude
+include:
+#  - _headers # Netlify headers
+
 # Exclude
 exclude:
   - exclude
@@ -30,4 +32,3 @@ exclude:
   - node_modules
   - yarn.lock
   - package.json
-  - s3_website.yml # s3_website
