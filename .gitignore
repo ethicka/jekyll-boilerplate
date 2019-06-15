@@ -3,5 +3,3 @@ Gemfile.lock
 .asset-cache
 .sass-cache
 /.jekyll-cache
-/CNAME
-/ssl
