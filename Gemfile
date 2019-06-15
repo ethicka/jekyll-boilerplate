@@ -13,4 +13,4 @@ gem "image_optim"
 gem "mini_magick"
 
 # Plugins
-gem "jekyll-assets", group: :jekyll_plugins
+gem "jekyll-assets", "3.0.9", group: :jekyll_plugins # 3.0.9 doesn't break on ruby version 2.6.2 / Netlify

@@ -12,11 +12,8 @@ assets:
   autoprefixer:
     browsers:
       - "last 2 versions"
-      - "IE > 9"
-  plugins:
-    img:
-      optim:
-        {}
+      - "IE > 11"
+
 # Build settings
 markdown: kramdown
 plugins:
