@@ -1,10 +1,16 @@
+<meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
+
+<!-- OpenGraph -->
 <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} &ndash; {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-      <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
-      <meta property="og:image" content="{{ site.url }}{% asset facebook-share.jpg @path %}">
-      <meta property="og:url" content="{{ site.url }}">
-      <meta property="og:site_name" content="{{ site.title | escape }}">
-      <meta property="og:type" content="website">
-      <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} &ndash; {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-      <meta name="twitter:description" content="{{ site.description | escape }}">
-      <meta name="twitter:image" content="{{ site.url }}{% asset twitter-share.jpg @path %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
+<meta property="og:image" content="{{ site.url }}{% asset facebook-share.jpg @path %}">
+<meta property="og:url" content="{{ page.url }}">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:type" content="website">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} &ndash; {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+<meta name="twitter:description" content="{{ site.description | escape }}">
+<meta name="twitter:image" content="{{ site.url }}{% asset twitter-share.jpg @path %}">
+
