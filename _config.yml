@@ -2,7 +2,7 @@ title:
 description:
 baseurl: ""
 url: ""
-jquery: true # default
+jquery: true
 
 # Assets
 assets:
@@ -24,7 +24,7 @@ include:
 
 # Exclude
 exclude:
-  - exclude
+  - exclude # use this folder to hide stuff
   - readme.md
   - Gemfile
   - Gemfile.lock
