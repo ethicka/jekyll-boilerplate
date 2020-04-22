@@ -1,16 +1,18 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  {% include head.html %}
-  <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade alert alert-warning rounded-0 text-center">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/" class="alert-link">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
+<!DOCTYPE html>
+<html lang="en-US">
+{% include head.html %}
+<body>
+<!--[if IE]>
+  <p class="browserupgrade alert alert-warning rounded-0 text-center">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/" class="alert-link">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
 
-    {% include header.html %}
+{% include header.html %}
 
-    {{ content }}
+<main>
+{{ content }}
+</main>
 
-    {% include footer.html %}
+{% include footer.html %}
 
-  </body>
+</body>
 </html>
